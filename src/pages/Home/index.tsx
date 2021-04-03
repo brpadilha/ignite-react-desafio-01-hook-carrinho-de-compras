@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 
 import { ProductList } from './styles';
 import { api } from '../../services/api';
-import { formatPrice } from '../../util/format';
 import { useCart } from '../../hooks/useCart';
 
 interface Product {
